@@ -4,22 +4,40 @@
 }
 
 .navbar-container{
-    height: 100px;
-    background-color: azure;
-    border-bottom: 1px solid #c6d9f7;
+    height: 50px;
+    width: 100%;
+    background-color: #bad1f53d;
+    border-bottom: 1px solid #75a4f079;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-list{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-around;
+    width: 80%;
 }
 
 .nav-links{
-    padding: 0px 20px;
     font-size: 15px;
     font-weight: bold;
     color: #0e63eb;
     cursor: pointer;
+    list-style: none;
+    border: 1px solid #75a4f079;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5px;
 
+}
+
+.nav-links:hover{
+    border: 1px solid #fff;
+    border-radius: 2px;
+    color: #000;
+    background-color: #fff;
 }

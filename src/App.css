@@ -1,14 +1,87 @@
+*{
+  box-sizing: border-box;
+  font-family:"Roboto";
+}
+
 .react-app{
   width: 100vw;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio-container{
   display: flex;
   flex-direction: column;
+  background-color: #f2f4f7;
+  height: calc(100% - 50px);
 }
 
 .my-photo{
   width: 250px;
   height: 400px;
+  border-radius: 30px;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+
+.details-container{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.resume-download{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4287f5;
+  color: #fff;
+  cursor: pointer;
+}
+
+.resume-download:hover{
+  background-color: #095fe8;
+}
+
+.projects-cotainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projects-cotainer h1{
+  text-align: center;
+}
+
+.project-images{
+  background-color: transparent;
+}
+
+.contacts-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contacts{
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.contacts-image{
+  width: 100%;
+  background-color: transparent;
 }

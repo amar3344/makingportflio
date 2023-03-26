@@ -1,12 +1,13 @@
 import "./navbar.css"
 
 const Navbar = () =>(
-    <nav classname="navbar-container">
-        <ul classname="nav-list">
-            <li classname="nav-links">About</li>
-            <li classname="nav-links">Skills</li>
-            <li classname="nav-links">Projects</li>
-            <li classname="nav-links">Skills</li>
+    <nav className="navbar-container">
+        <ul className="nav-list">
+            <li className="nav-links">About</li>
+            <li className="nav-links">Skills</li>
+            <li className="nav-links">Projects</li>
+            <li className="nav-links">Skills</li>
+            <li className="nav-links">Contacts</li>
         </ul>
     </nav>
 
